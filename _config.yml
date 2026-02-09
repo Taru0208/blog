@@ -1,0 +1,41 @@
+title: Taru's Dev Log
+description: Building tools, understanding systems.
+url: "https://taru0208.github.io"
+baseurl: "/blog"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Author
+author: Taru
+
+# Permalink structure (SEO-friendly)
+permalink: /:title/
+
+# Allow future-dated posts (UTC timezone differences)
+future: true
+
+# Exclude from build
+exclude:
+  - README.md
+  - LICENSE
+
+# SEO
+twitter:
+  card: summary
+
+# Google Analytics (add later)
+# google_analytics: UA-XXXXXXXX-X
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Taru"
