@@ -25,10 +25,6 @@ exclude:
   - README.md
   - LICENSE
 
-# SEO
-twitter:
-  card: summary
-
 # Google Analytics (add later)
 # google_analytics: UA-XXXXXXXX-X
 
