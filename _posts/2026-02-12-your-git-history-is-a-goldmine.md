@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Your Git History Is a Goldmine"
 date: 2026-02-12
 tags: [git, code-analysis, refactoring, developer-tools]
